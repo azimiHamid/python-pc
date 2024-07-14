@@ -2,14 +2,14 @@ weight = float(input("Weight : "))
 unit = input("(K)g or (L)bs : ").lower()
 
 if unit == "l":
-    weight_in_kg = weight * 0.45
-    print(f"weight in Kg : {weight_in_kg}")
+    weight_in_kg = round(weight * 0.453592, 2)
+    print(f"Weight in Kg: {weight_in_kg}")
 elif unit == "k":
-    weight_in_lbs = round(weight / 0.45, 2)
-    print(f"weight in Lbs : {weight_in_lbs}")
+    weight_in_lbs = round(weight / 0.453592, 2)
+    print(f"Weight in Lbs: {weight_in_lbs}")
 else:
-    print("Wrong unit! use wether k for (kg) or l for (lbs)")
+    print("Wrong unit! Use either 'k' for kg or 'l' for lbs.")
 
 
-#  Kg = 2.22lbs
-# lbs = 0.45Kg
+#  kg ≈ 2.20462 lbs
+#  lb ≈ 0.453592 kg
