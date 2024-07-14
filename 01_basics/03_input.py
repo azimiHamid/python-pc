@@ -1,3 +1,10 @@
+'''
+What we will learn here:
+    1. input() 
+    2. round()
+    3. function
+'''
+
 # input : We use input() method to get input from the user.
 # Note: input() method always convert everything as a string. So if we input a number like 2, it's going to be processed as "2" not 2. And for this cases we can change the types of variables using Datatype conversion for example int(input("...")) or float(input("..."))
 
