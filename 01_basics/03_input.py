@@ -29,5 +29,5 @@ def product(a, b):
 print("Product = " + str(product(a,b)))
 
 def division(a, b):
-    return a/b
+    return round(a/b, 2)  # round the result to 2 decimals
 print("Division = " + str(division(a,b)))
