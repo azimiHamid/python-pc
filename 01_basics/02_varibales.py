@@ -1,4 +1,4 @@
-# Variables and dataTypes: 
+# Variables and dataTypes in Python: 
 # String(str), 
 # integer(int), 
 # float(float), 
