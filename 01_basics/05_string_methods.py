@@ -1,8 +1,10 @@
 # Strings are immutable in python, it means that the initial string stay the same and will not be changed. when you apply a string method so it creates a copy of the initial string and apply the changes over the copy of that. Test it bellow:
 
+name = "Hamid"
+print(name[1:])  # output: amid
+print(name[1:-1])  # output: ami
+
 course = "python for everyone"
-
-
 print(course.capitalize())
 print(course.lower())
 print(course.upper())
