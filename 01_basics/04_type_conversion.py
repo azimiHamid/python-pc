@@ -1,6 +1,11 @@
+# DataTypes:
+    # string(str) - boolean(bool) - number
+    # list - tuple - dictionary(dict)
+    
+    
 # Type-conversion: converting DataTypes, like converting string to integer, integer to float, and so on...
 # 2024 - "2003" ❌
-# 2024 - int("2003") ✅ this is type-conversion
+# 2024 - int("2003") ✅ type-conversion implemented
 
 birth_year = input("Enter your birth year : ")
 age = 2024 - int(birth_year)
