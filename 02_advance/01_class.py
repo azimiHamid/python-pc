@@ -1,5 +1,5 @@
 class Point:
-    # constructor function
+    # constructor function: __init__ is a keyword for constructor in pyhton
     def __init__(self, x, y):
         self.x = x
         self.y = y
